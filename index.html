@@ -7,12 +7,30 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
-  <!-- Favicons -->
-  <!-- <link href="img/" rel="icon"> -->
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- Favicon end-->
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,270 +45,159 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: BizPage
-    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body>
-
   <!--==========================
-    Header
+  Header
   ============================-->
   <header id="header">
-    <div class="container-fluid">
 
-      <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">Streamly</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+    <div id="topbar">
+      <div class="container">
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="logo float-left">
+        <a href="#header" class="scrollto"><img src="img/logo.png" alt="logo" class="logo-img"></a>
       </div>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#call-to-action">Important</a></li>
-          <li><a href="#portfolio">Plans</a></li>
-          <li><a href="#affliate">Affliate</a></li>
-          
-          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
+          <li><a href="#why-us">Why-us</a></li>
+          <li><a href="#facts">Facts</a></li>
+          <li><a href="#pricing">Plans</a></li>
+          <li><a href="#faq">F.A.Q</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li class="drop-down"><a href="">User area</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
             </ul>
-          </li> -->
-          <li><a href="#contact">Contact</a></li>
+          </li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+      </nav><!-- .main-nav -->
+      
     </div>
   </header><!-- #header -->
 
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro">
-    <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-
-        <ol class="carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Affliate commision, Rewards</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#contact" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
+  <section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last">
+          <h2>Amazing investment <br>plans for <span>Secure future</span></h2>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>The Leading Video company</h2>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                <a href="#contact" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Azaming investment plan</h2>
-                <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                <a href="#contact" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>The Leading Video company</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                <a href="#contact" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Our amazing services</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#contact" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>
-
         </div>
-
-        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
+  
+        <div class="col-md-6 intro-img order-md-last order-first">
+          <img src="img/intro-img.svg" alt="" class="img-fluid">
+        </div>
       </div>
+
     </div>
   </section><!-- #intro -->
 
   <main id="main">
 
     <!--==========================
-      Featured Services Section
-    ============================-->
-    <!-- <section id="featured-services">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 box">
-            <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-
-          <div class="col-lg-4 box box-bg">
-            <i class="ion-ios-stopwatch-outline"></i>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-
-          <div class="col-lg-4 box">
-            <i class="ion-ios-heart-outline"></i>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-
-        </div>
-      </div>
-    </section> -->
-    <!-- #featured-services -->
-
-    <!--==========================
       About Us Section
     ============================-->
     <section id="about">
+
       <div class="container">
+        <div class="row">
 
-        <header class="section-header">
-          <h3>About Streamly</h3>
-          <p>
-            An awesome advertising platform for you to advertise any video content,place your ad & show it to (total Members) people now.
-            There are many digital advertisement companies all over the net, so what's the special about Streamly? Well, streamly does make sure of the viewer's engagement, our members are only here to watch your ads for 60-120 seconds not stop. Strategic Experts can confirm that this can boost your sales through streamly and thousands of people come in your ad contact within 24 hours. Our Audience engagement rate is guaranteed 100%.
-
-            Try out our services now and build an immense audience for yourself or your product. In any special case reach out to us by clicking "Contact Us" or watch the video about streamly services.
-          </p>
-        </header>
-
-        <div class="row about-cols">
-
-          <div class="col-md-4 wow fadeInUp">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Our Mission</a></h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img">
+              <img src="img/about.png" alt="">
             </div>
           </div>
 
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-plan.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-list-outline"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Our Plan</a></h2>
+          <div class="col-lg-7 col-md-6">
+            <div class="about-content">
+              <h2>About Streamly</h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                An awesome advertising platform for you to advertise any video content,place your ad & show it to (total Members) people now.
+                There are many digital advertisement companies all over the net, so what’s the special about Streamly? Well, streamly does make
+                sure of the viewer’s engagement, our members are only here to watch your ads for 60-120 seconds not stop. Strategic Experts can confirm
+                that this can boost your sales through streamly and thousands of people come in your ad contact within 24 hours. Our Audience engagement
+                rate is guaranteed 100%. Try out our services now and build an immense audience for yourself or your product.
+                In any special case reach out to us by clicking “Contact Us” or watch the video about streamly services.
               </p>
             </div>
           </div>
-
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-vision.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Our Vision</a></h2>
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
-              </p>
-            </div>
-          </div>
-
         </div>
-
       </div>
+
     </section><!-- #about -->
+
 
     <!--==========================
       Services Section
     ============================-->
-    <section id="services">
+    <section id="services" class="section-bg">
       <div class="container">
 
-        <header class="section-header wow fadeInUp">
+        <header class="section-header">
           <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
         </header>
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Investment</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Investment</a></h4>
+              <p class="description">nvest and earn daily percentage according to your investment.</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-            <h4 class="title"><a href="">Bitcoins</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
+              <h4 class="title"><a href="">Free Earning</a></h4>
+              <p class="description">Just Register & watch videos to earn without any investment.</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">Video Ads</a></h4>
+              <p class="description">Advertise your videos from local areas to worldwide to your choice of audience.</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">Ref. Plan</a></h4>
+              <p class="description">Refer your friends and earn different % of their investment according to plans.</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
+              <h4 class="title"><a href="">Get Rewards</a></h4>
+              <p class="description">Reach ranks and achieve awesome rewards and recognition from company.</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-people-outline"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
+          
 
         </div>
 
@@ -298,384 +205,376 @@
     </section><!-- #services -->
 
     <!--==========================
-      Important Section
+      Why Us Section
     ============================-->
-    <section id="call-to-action" class="wow fadeIn">
-      <div class="container text-center">
-        <h3>Things you should know!</h3>
-        <p>
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-          The point of using Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.
-        </p>
-        <a class="cta-btn" href="#contact">Contact</a>
-      </div>
-    </section><!-- #Important Section -->
-
-
-
-    <!--==========================
-      Facts Section
-    ============================-->
-    <section id="facts"  class="wow fadeIn">
-      <div class="container">
-
+    <section id="why-us" class="wow fadeIn">
+      <div class="container-fluid">
+        
         <header class="section-header">
-          <h3>Important Facts</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3>Why choose us?</h3>
         </header>
 
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="why-us-img">
+              <img src="img/features-2.svg" alt="" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="why-us-content">
+
+
+              <div class="features wow bounceInUp clearfix">
+                <i class="ion-android-checkmark-circle"></i>
+                <h4>Registered</h4>
+                <p>Streamly is registered under the Gov’t of Pakistan.</p>
+              </div>
+
+              <div class="features wow bounceInUp clearfix">
+                <i class="ion-android-checkmark-circle"></i>
+                <h4>Offices in multipule cities</h4>
+                <p>We have 100's Of offices all around pakistan</p>
+              </div>
+
+              <div class="features wow bounceInUp clearfix">
+                <i class="ion-android-checkmark-circle"></i>
+                <h4>Registered</h4>
+                <p>Streamly is registered under the Gov’t of Pakistan.</p>
+              </div>
+
+              <div class="features wow bounceInUp clearfix">
+                <i class="ion-android-checkmark-circle"></i>
+                <h4>Offices in multipule cities</h4>
+                <p>We have 100's Of offices all around pakistan</p>
+              </div>
+
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container">
         <div class="row counters">
 
-  				<div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">274</span>
-            <p>Clients</p>
-  				</div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">2018</span>
+            <p>WORKING SINCE</p>
+          </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">421</span>
-            <p>Projects</p>
-  				</div>
+            <span data-toggle="counter-up">30212</span>
+            <p>TOTAL WITHDRAWALS</p>
+          </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">1,364</span>
-            <p>Hours Of Support</p>
-  				</div>
+            <p>MEMBERS</p>
+          </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">18</span>
-            <p>Hard Workers</p>
-  				</div>
-
-  			</div>
+            <span data-toggle="counter-up">1800</span>
+            <p>TOTAL VIDEO VIEWED</p>
+          </div>
+  
+        </div>
 
       </div>
-    </section><!-- #facts -->
+    </section>
+
+
+    <!--==========================
+      Features Section
+    ============================-->
+    <section id="facts">
+      <div class="container">
+        <div class="row feature-item mt-5 pt-5">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/important.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>Facts to know before working</h4>
+            <i class="ion-android-checkmark-circle"></i> Streamly is registered under the Gov’t of Pakistan.</br>
+            <i class="ion-android-checkmark-circle"></i> You can visit our office on appointment terms.</br>
+            <i class="ion-android-checkmark-circle"></i> Minimum Deposit in Investment plans is $50.</br>
+            <i class="ion-android-checkmark-circle"></i> Minimum withdrawal is $5 for free user & $20 for paid user.</br>
+            <i class="ion-android-checkmark-circle"></i> Emergency Withdrawal(on any day) is available with 5% fee.</br>
+            <i class="ion-android-checkmark-circle"></i> Withdrawals will be processed on bi-weekly basis.</br>
+            <i class="ion-android-checkmark-circle"></i> ROI percentage will be distributed according to our external returns.</br>
+            <i class="ion-android-checkmark-circle"></i> Affiliate Commission is fully withdrawalable for paid users and 60% for free users.</br>
+            <i class="ion-android-checkmark-circle"></i> Verification(ID) is must within 15 days.</br>
+            <i class="ion-android-checkmark-circle"></i> Streamly is authorized to freeze any account on the basis of hate speech,spamming,scam etc.</br>
+            <i class="ion-android-checkmark-circle"></i> Refund policy is available for paid users.</br>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #about -->
 
     
 
     <!--==========================
-      Clients Section
+      Pricing Section
     ============================-->
-    <!-- <section id="clients" class="wow fadeInUp">
+    <section id="pricing" class="wow fadeInUp section-bg">
+
       <div class="container">
 
         <header class="section-header">
-          <h3>Our Clients</h3>
+          <h3>Over Investment Plans</h3>
         </header>
 
-        <div class="owl-carousel clients-carousel">
-          <img src="img/clients/client-1.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
-          <img src="img/clients/client-3.png" alt="">
-          <img src="img/clients/client-4.png" alt="">
-          <img src="img/clients/client-5.png" alt="">
-          <img src="img/clients/client-6.png" alt="">
-          <img src="img/clients/client-7.png" alt="">
-          <img src="img/clients/client-8.png" alt="">
+        <div class="row flex-items-xs-middle flex-items-xs-center">
+      
+          <!-- PRO Plan  -->
+          <div class="col-xs-12 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3><span class="period">DAILY EARNING</span></h3>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title"> 
+                  PRO
+                </h4>
+                <ul class="list-group">
+                  <li class="list-group-item">Min Investment : $50</li>
+                  <li class="list-group-item">Max Investment : $25000</li>
+                  <li class="list-group-item">Maturity Days : 365</li>
+                  <li class="list-group-item">Ref Commission: 3%</li>
+                  <li class="list-group-item">Delay Earning 24 Hours</li>
+                  <li class="list-group-item">Monday-Friday: 0.40% - 0.70%</li>
+                  <li class="list-group-item">Weekend: 0.30% - 0.40%</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Primiun Plan  -->
+          <div class="col-xs-12 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3><span class="period">WEEKLY ROI</span></h3>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title"> 
+                  Premium
+                </h4>
+                <ul class="list-group">
+                  <li class="list-group-item">Min Investment : $25001</li>
+                  <li class="list-group-item">Max Investment : $50,000</li>
+                  <li class="list-group-item">Maturity Days: 750</li>
+                  <li class="list-group-item">Surfing Daily: 5 Videos</li>
+                  <li class="list-group-item">Ref commission: 4%</li>
+                  <li class="list-group-item">Compounding: 10%</li>
+                  <li class="list-group-item">Et perspiciatis suscipit</li>
+                  <li class="list-group-item">Weekly ROI: 3-5%</li>
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+      
+          <!-- luxury Plan  -->
+          <div class="col-xs-12 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3><span class="period">BI WEEKLY ROI</span></h3>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title"> 
+                  Luxury
+                </h4>
+                <ul class="list-group">
+                  <li class="list-group-item">Min Investment : $50,001</li>
+                  <li class="list-group-item">Max Investment : No limit</li>
+                  <li class="list-group-item">Maturity Days: Never</li>
+                  <li class="list-group-item">Surfing Daily: Not Required</li>
+                  <li class="list-group-item">Ref commission: 5%</li>
+                  <li class="list-group-item">Compounding: 20%</li>
+                  <li class="list-group-item">Bi Weekly ROI: 5-6%</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
         </div>
-
       </div>
-    </section><!-- #clients -->
+
+    </section><!-- #pricing -->
 
     <!--==========================
-      Clients Section
+      Frequently Asked Questions Section
     ============================-->
-    <!-- <section id="testimonials" class="section-bg wow fadeInUp">
+    <section id="faq">
       <div class="container">
-
         <header class="section-header">
-          <h3>Testimonials</h3>
+          <h3>Frequently Asked Questions</h3>
         </header>
 
-        <div class="owl-carousel testimonials-carousel">
+        <ul id="faq-list" class="wow fadeInUp">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">How much minimum investment need? <i class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <p>
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
+            </div>
+          </li>
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">How much maximum investment we do? <i class="ion-android-remove"></i></a>
+            <div id="faq2" class="collapse" data-parent="#faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-            <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <li>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">How affliate work? <i class="ion-android-remove"></i></a>
+            <div id="faq3" class="collapse" data-parent="#faq-list">
+              <p>
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+              </p>
+            </div>
+          </li>
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">How we refer a friend? <i class="ion-android-remove"></i></a>
+            <div id="faq4" class="collapse" data-parent="#faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <li>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">How we earn through videos? <i class="ion-android-remove"></i></a>
+            <div id="faq5" class="collapse" data-parent="#faq-list">
+              <p>
+                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+              </p>
+            </div>
+          </li>
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <li>
+            <a data-toggle="collapse" href="#faq6" class="collapsed">How we tranfer you money<i class="ion-android-remove"></i></a>
+            <div id="faq6" class="collapse" data-parent="#faq-list">
+              <p>
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+              </p>
+            </div>
+          </li>
 
-        </div>
+        </ul>
 
       </div>
-    </section><!-- #testimonials -->
-
-    <!--==========================
-      Team Section
-    ============================-->
-    <!-- <section id="team">
-      <div class="container">
-        <div class="section-header wow fadeInUp">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="img/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="member">
-              <img src="img/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="member">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
-      <div class="container">
-
-        <div class="section-header">
-          <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>Gulberg, lahore 54000, Pakistan</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+3232322222">+3232322222</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
-        </div>
-
-      </div>
-    </section><!-- #contact -->
+    </section><!-- #faq -->
 
   </main>
 
   <!--==========================
     Footer
   ============================-->
-  <footer id="footer">
+  <footer id="footer" class="section-bg">
     <div class="footer-top">
       <div class="container">
+
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Streamly</h3>
-            <p>
-              An awesome advertising platform for you to advertise any video content,place your ad & show it to (total Members) people now.
-            </p>
-          </div>
+          <div class="col-lg-8">
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#home">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
-            </ul>
-          </div>
+            <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              Gulberg Street <br>
-              Lahore, 5400<br>
-              Pakistan <br>
-              <strong>Phone:</strong> +323234444234<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+                <div class="col-sm-6">
 
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  <div class="footer-info">
+                    <h3>Streamly</h3>
+                    <p>
+                      An awesome advertising platform for you to advertise any video content,place your ad & show it to (total Members) people now.
+                      There are many digital advertisement companies all over the net, so what’s the special about Streamly? Well, streamly does make
+                      sure of the viewer’s engagement, our members are only here to watch your ads for 60-120 seconds not stop. Strategic Experts can confirm
+                      that this can boost your sales through streamly and thousands of people come in your ad contact within 24 hours. Our Audience engagement
+                      rate is guaranteed 100%. Try out our services now and build an immense audience for yourself or your product.
+                      In any special case reach out to us by clicking “Contact Us” or watch the video about streamly services.
+                    </p>
+                  </div>
+
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                      <li><a href="#intro">Home</a></li>
+                      <li><a href="#about">About us</a></li>
+                      <li><a href="#services">Services</a></li>
+                      
+                    </ul>
+                  </div>
+
+                  <div class="footer-links">
+                    <h4>Contact Us</h4>
+                    <p>
+                      Office No:17 <br>
+                      Waqar Khan market,Turbela More<br>
+                      Civil Hospital Hazro, Pakistan <br>
+                      <strong>Phone:</strong> +92 305 8921425<br>
+                      <strong>Email:</strong> contact@streamly.biz<br>
+                    </p>
+                  </div>
+
+                  <div class="social-links">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  </div>
+
+                </div>
+
             </div>
 
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit"  value="Subscribe">
-            </form>
+          <div class="col-lg-4">
+            <h4>Payments methods</h4>
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="img/perfect.png" alt="">
+              </div>
+              <div class="col-lg-6">
+                <img src="img/bit.png" alt="">
+              </div>
+              <div class="col-lg-6">
+                <img src="img/bank.png" alt="">
+              </div>
+              <div class="col-lg-6">
+                <img src="img/easy.png" alt="">
+              </div>
+              <div class="col-lg-6">
+                <img src="img/jazz.png" alt="">
+              </div>
+            </div>
           </div>
 
+          
+
         </div>
+
       </div>
     </div>
 
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong>Streamly</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
-        Designed by <a href="https://www.upwork.com/freelancers/~016d31638a6cbefba4">Haider Ali</a>
       </div>
     </div>
   </footer><!-- #footer -->
@@ -689,15 +588,13 @@
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/counterup/counterup.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
